@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class CameraFollow : MonoBehaviour {
     [SerializeField]
@@ -29,4 +30,5 @@ public class CameraFollow : MonoBehaviour {
         transform.position = poz + (Vector3.up * coord_y);
 		
 	}
+    
 }

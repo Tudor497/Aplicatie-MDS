@@ -8,7 +8,7 @@ public class PixelPerfectCamera : MonoBehaviour {
 	public static float scale;
 	public static float objRes;
     public static Vector3 pos;
-	public Vector2 NativeResolution = new Vector2(240,160);
+	public static Vector2 NativeResolution = new Vector2(240,160);
 	// Use this for initialization
 	void Awake (){
       pixelsToUnits = 1f;
